@@ -1,5 +1,5 @@
 #python 3.12
-def calculadora()
+def calculadora():
     try:
         # Entrada de datos
         entrada = int(input("Coloca el primer número para la operación"))
