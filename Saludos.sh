@@ -6,7 +6,7 @@ echo -e "          \e[33m#--------------------------#"
 # Salto de línea y restablecer colores
 echo -e "\e[0m"
 # Entrada de datos
-read -p "Quiéres Ejecutar directamente Calculadora.py :)" respuesta
+read -p "Quiéres Ejecutar directamente Calculadora.py :): " respuesta
 # Comprobando la respuesta del usuario
 if [[ "$respuesta" == "si" ]]; then
    echo -e "\e[32m Ejecutando Calculadora.py ^_^"
