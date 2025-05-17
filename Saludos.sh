@@ -1,8 +1,8 @@
 #!/bin/bash
 # Título
-printf -e "\e[31m#--------------------------#"
-printf -e "\e[32m#        Calculadora       #"
-printf -e "\e[33m#--------------------------#"
+echo -e "\e[31m#--------------------------#"
+echo -e "\e[32m#        Calculadora       #"
+echo -e "\e[33m#--------------------------#"
 # Salto de línea y restablecer colores
 echo -e "\e[0m"
 # Entrada de datos
