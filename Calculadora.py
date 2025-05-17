@@ -4,7 +4,7 @@ def calculadora():
         try:
             # Entrada de datos
             entrada = int(input("Coloca el primer número para la operación: "))
-            segunda_entrada = int(input("Coloca el segundo número para sumar"))
+            segunda_entrada = int(input("Coloca el segundo número para sumar: "))
         except ValueError:
             print("¡Es Inválido! vuelve a intentarlo con números")
         resultado = entrada + segunda_entrada
